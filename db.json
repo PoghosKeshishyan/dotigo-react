@@ -1,0 +1,315 @@
+{
+    "logo": {
+        "id": 1,
+        "image": "/images/partials/logo.svg"
+    },
+    "navbar": [
+        {
+            "id": 1,
+            "lang": "en",
+            "label": "Domain",
+            "link": "/pages/domains.html",
+            "dropdown": []
+        },
+        {
+            "id": 2,
+            "lang": "en",
+            "label": "Hosting",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 3,
+            "lang": "en",
+            "label": "VPS",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 4,
+            "lang": "en",
+            "label": "SSL",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 5,
+            "lang": "en",
+            "label": "Services",
+            "link": "#",
+            "dropdown": [
+                {
+                    "id": 1,
+                    "label": "Website and Application Development",
+                    "link": "#"
+                },
+                {
+                    "id": 2,
+                    "label": "Website and Application Development",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "lang": "ru",
+            "label": "Домен",
+            "link": "/pages/domains.html",
+            "dropdown": []
+        },
+        {
+            "id": 2,
+            "lang": "ru",
+            "label": "Хостинг",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 3,
+            "lang": "ru",
+            "label": "VPS",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 4,
+            "lang": "ru",
+            "label": "SSL",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 5,
+            "lang": "ru",
+            "label": "Сервисы",
+            "link": "#",
+            "dropdown": [
+                {
+                    "id": 1,
+                    "label": "Разработка сайтов и приложений"
+                },
+                {
+                    "id": 2,
+                    "label": "Разработка сайтов и приложений"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "lang": "am",
+            "label": "Դոմեյն",
+            "link": "/pages/domains.html",
+            "dropdown": []
+        },
+        {
+            "id": 2,
+            "lang": "am",
+            "label": "Հոսթինգ",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 3,
+            "lang": "am",
+            "label": "VPS",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 4,
+            "lang": "am",
+            "label": "SSL",
+            "link": "#",
+            "dropdown": []
+        },
+        {
+            "id": 5,
+            "lang": "am",
+            "label": "Ծառայություններ",
+            "link": "#",
+            "dropdown": [
+                {
+                    "id": 1,
+                    "label": "Վեբ կայքերի և հավելվածների մշակում"
+                },
+                {
+                    "id": 2,
+                    "label": "Վեբ կայքերի և հավելվածների մշակում"
+                }
+            ]
+        }
+    ],
+    "account_btns": [
+        {
+            "id": 1,
+            "lang": "en",
+            "label": "Login",
+            "link": "/login"
+        },
+        {
+            "id": 2,
+            "lang": "en",
+            "label": "Register",
+            "link": "/register"
+        },
+        {
+            "id": 3,
+            "lang": "ru",
+            "label": "Войти",
+            "link": "/login"
+        },
+        {
+            "id": 4,
+            "lang": "ru",
+            "label": "Регистрация",
+            "link": "/register"
+        },
+        {
+            "id": 5,
+            "lang": "am",
+            "label": "Մուտք",
+            "link": "/login"
+        },
+        {
+            "id": 6,
+            "lang": "am",
+            "label": "Գրանցվել",
+            "link": "/register"
+        }
+    ],
+    "languages": [
+        {
+            "id": 1,
+            "code": "en",
+            "label": "EN",
+            "image": "/images/partials/flag-en.svg",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "code": "am",
+            "label": "AM",
+            "image": "/images/partials/flag-am.svg",
+            "link": "/"
+        },
+        {
+            "id": 3,
+            "code": "ru",
+            "label": "RU",
+            "image": "/images/partials/flag-ru.svg",
+            "link": "/"
+        }
+    ],
+    "homepage_intro": [
+        {
+            "id": 1,
+            "lang": "en",
+            "title": "Find Your Dream Domain Name",
+            "descr": "Get your perfect domain name with a special price.",
+            "placeholder": "Find your dream domain",
+            "button": "Check Domain"
+        },
+        {
+            "id": 2,
+            "lang": "ru",
+            "title": "Найдите свое идеальное доменное имя",
+            "descr": "Получите идеальное доменное имя по специальной цене.",
+            "placeholder": "Найдите идеальный домен",
+            "button": "Проверить домен"
+        },
+        {
+            "id": 3,
+            "lang": "am",
+            "title": "Գտիր քո երազանքների դոմեյնը",
+            "descr": "Ստացիր քո իդեալական դոմեյնը հատուկ գնով։",
+            "placeholder": "Գտիր քո երազանքների դոմեյնը",
+            "button": "Ստուգել դոմեյնը"
+        }
+    ],
+    "homepage_services": [
+        {
+            "id": 1,
+            "lang": "en",
+            "heading": "The Best Service For You Who Are Growth",
+            "descr": "Our powerful web hosting tools get the job done right, and are designed so that as you grow, your site can grow with you too.",
+            "items": [
+                {
+                    "title": "SSL Certificate",
+                    "descr": "Enter the domain name you want (extensions .com, .id, .online, .live, .store, .info and many more)",
+                    "image": "/images/home_page/service-ssl.png"
+                },
+                {
+                    "title": "Hosting",
+                    "descr": "Enter the domain name you want (extensions .com, .id, .online, .live, .store, .info and many more)",
+                    "image": "/images/home_page/service-hosting.png"
+                },
+                {
+                    "title": "VPS",
+                    "descr": "Enter the domain name you want (extensions .com, .id, .online, .live, .store, .info and many more)",
+                    "image": "/images/home_page/service-vps.png"
+                },
+                {
+                    "title": "24/7/356 Support",
+                    "descr": "We work when you work. Whenever that happens we will always be there",
+                    "image": "/images/home_page/service-support.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "lang": "ru",
+            "heading": "Лучшие услуги для вашего роста",
+            "description": "Наши мощные инструменты веб-хостинга работают эффективно и позволяют вашему сайту расти вместе с вами.",
+            "items": [
+                {
+                    "title": "SSL Сертификат",
+                    "desc": "Введите нужное доменное имя (расширения .com, .id, .online, .live, .store, .info и др.)",
+                    "image": "/images/home_page/service-ssl.png"
+                },
+                {
+                    "title": "Хостинг",
+                    "desc": "Введите нужное доменное имя (расширения .com, .id, .online, .live, .store, .info и др.)",
+                    "image": "/images/home_page/service-hosting.png"
+                },
+                {
+                    "title": "VPS",
+                    "desc": "Введите нужное доменное имя (расширения .com, .id, .online, .live, .store, .info и др.)",
+                    "image": "/images/home_page/service-vps.png"
+                },
+                {
+                    "title": "Поддержка 24/7/365",
+                    "desc": "Мы работаем, когда вы работаете. Мы всегда рядом, когда это нужно.",
+                    "image": "/images/home_page/service-support.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "lang": "am",
+            "heading": "Լավագույն ծառայությունները Ձեր աճի համար",
+            "description": "Մեր հզոր վեբ հոսթինգ գործիքները արագ ու արդյունավետ լուծում են տալիս՝ ապահովելով կայքի աճը Ձեր բիզնեսի հետ մեկտեղ։",
+            "items": [
+                {
+                    "title": "SSL սերտիֆիկատ",
+                    "desc": "Մուտքագրեք ձեր ցանկալի դոմեյնը (օրինակ՝ .com, .id, .online, .live, .store, .info և այլն)",
+                    "image": "/images/home_page/service-ssl.png"
+                },
+                {
+                    "title": "Հոսթինգ",
+                    "desc": "Մուտքագրեք ձեր ցանկալի դոմեյնը (օրինակ՝ .com, .id, .online, .live, .store, .info և այլն)",
+                    "image": "/images/home_page/service-hosting.png"
+                },
+                {
+                    "title": "VPS",
+                    "desc": "Մուտքագրեք ձեր ցանկալի դոմեյնը (օրինակ՝ .com, .id, .online, .live, .store, .info և այլն)",
+                    "image": "/images/home_page/service-vps.png"
+                },
+                {
+                    "title": "24/7/365 Աջակցություն",
+                    "desc": "Մենք աշխատում ենք այն ժամանակ, երբ Դուք։ Միշտ պատրաստ ենք օգնելու։",
+                    "image": "/images/home_page/service-support.png"
+                }
+            ]
+        }
+    ]
+}

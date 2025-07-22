@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext, useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import { LanguageContext } from "./context/LanguageContext";
+import Header from "./components/header";
+import HomePage from "./pages/HomePage";
+import axios from "./axios";
 
-function App() {
+export default function App() {
+  const { lang } = useContext(LanguageContext);
+  const [headerData, setHeaderData] = useState(null);
+
+  useEffect(() => {
+    const loadingData = async () => {
+      const resLogo = await axios.get('logo');
+      const resNavbar = await axios.get(`navbar?lang=${lang}`);
+      const resLangs = await axios.get('languages');
+      const resAccountBtns = await axios.get(`account_btns?lang=${lang}`);
+      setHeaderData({ logo: resLogo.data, navbar: resNavbar.data, btns: resAccountBtns.data, langs: resLangs.data });
+    };
+
+    loadingData();
+  }, [lang]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      {headerData && <Header headerData={headerData} />}
 
-export default App;
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </div>
+  )
+}
