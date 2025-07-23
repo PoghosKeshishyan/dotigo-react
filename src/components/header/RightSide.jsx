@@ -1,12 +1,11 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { LanguageContext } from "../../context/LanguageContext";
+import { DISPLAY_LANG } from '../../config';
 
 export default function RightSide({ btns, langs, setNavbarIsActive }) {
-    const { lang } = useContext(LanguageContext);
     const [showLangDropdown, setShowLangDropdown] = useState(false);
     const langRef = useRef();
-    const currentLang = langs.find(l => l.code === lang);
+    const currentLang = langs.find(l => l.code === DISPLAY_LANG);
 
     useEffect(() => {
         const handleClickOutside = (e) => {

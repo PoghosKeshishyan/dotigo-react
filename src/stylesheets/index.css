@@ -21,6 +21,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Arial Regular';
+  src: url('../../public/fonts/ARIAL.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Eudoxus Sans", sans-serif;
@@ -46,6 +53,10 @@
 
 body {
     overflow-x: hidden;
+}
+
+.am-font * {
+  font-family: 'Arial Regular' !important;
 }
 
 .btn {
