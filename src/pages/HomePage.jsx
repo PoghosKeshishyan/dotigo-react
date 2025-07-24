@@ -5,6 +5,7 @@ import Services from "../components/homepage/Services/";
 import Map from "../components/homepage/Map/";
 import HostingPlans from "../components/homepage/HostingPlans/";
 import QuestionList from "../components/homepage/QuestionList";
+import RegisterBanner from "../components/homepage/RegisterBanner";
 import axios from "../axios";
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
     const [mapData, setMapData] = useState(null);
     const [hostingData, setHostingData] = useState(null);
     const [questionData, setQuestionData] = useState(null);
+    const [registerBannerData, setRegisterBannerData] = useState(null);
 
     const [billingType, setBillingType] = useState("/month");
 
@@ -31,6 +33,9 @@ export default function HomePage() {
                 const resQuestionHeading = await axios.get(`question_list_heading?lang=${DISPLAY_LANG}`);
                 const resQuestion = await axios.get(`question_list?lang=${DISPLAY_LANG}`);
                 setQuestionData({ heading: resQuestionHeading.data[0], data: resQuestion.data });
+
+                const resRegisterBanner = await axios.get(`homepage_register_banner?lang=${DISPLAY_LANG}`);
+                setRegisterBannerData(resRegisterBanner.data[0]);
             } catch (error) {
                 console.log(error);
             }
@@ -60,6 +65,7 @@ export default function HomePage() {
             {mapData && <Map mapData={mapData} />}
             {hostingData && <HostingPlans hostingData={hostingData} billingType={billingType} setBillingType={setBillingType} />}
             {questionData && <QuestionList questionData={questionData} />}
+            {registerBannerData && <RegisterBanner registerBannerData={registerBannerData} />}
         </div>
     )
 }

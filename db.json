@@ -200,6 +200,273 @@
             "link": "/"
         }
     ],
+    "footer_labels": {
+        "id": 1,
+        "lang": "multi",
+        "image": "/images/partials/logo.svg",
+        "descr_en": "Our mission is to help millions of people harness the potential of the internet to build online success",
+        "descr_ru": "Наша миссия — помочь миллионам людей использовать потенциал интернета для достижения успеха в интернете",
+        "descr_am": "Մեր առաքելությունն է օգնել միլիոնավոր մարդկանց օգտագործել ինտերնետի ներուժը՝ առցանց հաջողություններ կառուցելու համար",
+        "footer_social_links": [
+            {
+                "id": 1,
+                "image": "/images/partials/icon-facebook.svg",
+                "link": "https://www.youtube.com/"
+            },
+            {
+                "id": 2,
+                "image": "/images/partials/icon-instagram.svg",
+                "link": "https://www.instagram.com/"
+            },
+            {
+                "id": 3,
+                "image": "/images/partials/icon-youtube.svg",
+                "link": "https://www.youtube.com/"
+            }
+        ]
+    },
+    "footer_links": [
+        {
+            "id": 1,
+            "lang": "en",
+            "title": "Web Hosting",
+            "links": [
+                {
+                    "label": "Cloud Hosting",
+                    "link": "#"
+                },
+                {
+                    "label": "Email Hosting",
+                    "link": "#"
+                },
+                {
+                    "label": "Web Hosting Unlimited",
+                    "link": "#"
+                },
+                {
+                    "label": "SSL Security",
+                    "link": "#"
+                },
+                {
+                    "label": "Transfer Hosting",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "lang": "en",
+            "title": "Domain",
+            "links": [
+                {
+                    "label": "Register Domain",
+                    "link": "#"
+                },
+                {
+                    "label": "Transfer Domains",
+                    "link": "#"
+                },
+                {
+                    "label": "Manage Domains",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "lang": "en",
+            "title": "VPS",
+            "links": [
+                {
+                    "label": "Virtual VPS",
+                    "link": "#"
+                },
+                {
+                    "label": "High-bandwidth VPS",
+                    "link": "#"
+                },
+                {
+                    "label": "Cloud VPS",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "lang": "en",
+            "title": "Support",
+            "links": [
+                {
+                    "label": "Customer Portal",
+                    "link": "#"
+                },
+                {
+                    "label": "Online Chat",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "lang": "ru",
+            "title": "Веб-хостинг",
+            "links": [
+                {
+                    "label": "Облачный хостинг",
+                    "link": "#"
+                },
+                {
+                    "label": "Почтовый хостинг",
+                    "link": "#"
+                },
+                {
+                    "label": "Неограниченный хостинг",
+                    "link": "#"
+                },
+                {
+                    "label": "SSL Безопасность",
+                    "link": "#"
+                },
+                {
+                    "label": "Перенос хостинга",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "lang": "ru",
+            "title": "Домен",
+            "links": [
+                {
+                    "label": "Регистрация домена",
+                    "link": "#"
+                },
+                {
+                    "label": "Перенос доменов",
+                    "link": "#"
+                },
+                {
+                    "label": "Управление доменами",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "lang": "ru",
+            "title": "VPS",
+            "links": [
+                {
+                    "label": "Виртуальный VPS",
+                    "link": "#"
+                },
+                {
+                    "label": "VPS с высокой пропускной способностью",
+                    "link": "#"
+                },
+                {
+                    "label": "Облачный VPS",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "lang": "ru",
+            "title": "Поддержка",
+            "links": [
+                {
+                    "label": "Портал клиента",
+                    "link": "#"
+                },
+                {
+                    "label": "Онлайн чат",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "lang": "am",
+            "title": "Վեբ հոսթինգ",
+            "links": [
+                {
+                    "label": "Ամպային հոսթինգ",
+                    "link": "#"
+                },
+                {
+                    "label": "Էլ․փոստի հոսթինգ",
+                    "link": "#"
+                },
+                {
+                    "label": "Անսահմանափակ հոսթինգ",
+                    "link": "#"
+                },
+                {
+                    "label": "SSL անվտանգություն",
+                    "link": "#"
+                },
+                {
+                    "label": "Հոսթինգի փոխանցում",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "lang": "am",
+            "title": "Դոմեն",
+            "links": [
+                {
+                    "label": "Դոմենի գրանցում",
+                    "link": "#"
+                },
+                {
+                    "label": "Դոմենների փոխանցում",
+                    "link": "#"
+                },
+                {
+                    "label": "Դոմենների կառավարում",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "lang": "am",
+            "title": "VPS",
+            "links": [
+                {
+                    "label": "Վիրտուալ VPS",
+                    "link": "#"
+                },
+                {
+                    "label": "Բարձր թողունակությամբ VPS",
+                    "link": "#"
+                },
+                {
+                    "label": "Ամպային VPS",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "lang": "am",
+            "title": "Աջակցություն",
+            "links": [
+                {
+                    "label": "Հաճախորդի պորտալ",
+                    "link": "#"
+                },
+                {
+                    "label": "Առցանց զրույց",
+                    "link": "#"
+                }
+            ]
+        }
+    ],
     "hosting_plans": [
         {
             "id": 1,
@@ -1248,7 +1515,7 @@
             "title": "Find Your Dream Domain Name",
             "descr": "Get your perfect domain name with a special price.",
             "placeholder": "Find your dream domain",
-            "button": "Check Domain"
+            "btn_text": "Check Domain"
         },
         {
             "id": 2,
@@ -1256,7 +1523,7 @@
             "title": "Найдите свое идеальное доменное имя",
             "descr": "Получите идеальное доменное имя по специальной цене.",
             "placeholder": "Найдите идеальный домен",
-            "button": "Проверить домен"
+            "btn_text": "Проверить домен"
         },
         {
             "id": 3,
@@ -1264,7 +1531,7 @@
             "title": "Գտիր քո երազանքների դոմեյնը",
             "descr": "Ստացիր քո իդեալական դոմեյնը հատուկ գնով։",
             "placeholder": "Գտիր քո երազանքների դոմեյնը",
-            "button": "Ստուգել դոմեյնը"
+            "btn_text": "Ստուգել դոմեյնը"
         }
     ],
     "homepage_services": [
@@ -1397,6 +1664,32 @@
             "title": "Ընտրեք հոստինգի Ձեր փաթեթը",
             "subtitle": "Մենք առաջատար վեբ լուծումների և ծառայությունների մատակարար ենք",
             "plan_billing_option": "Վճարել ամսական / տարեկան"
+        }
+    ],
+    "homepage_register_banner": [
+        {
+            "id": 1,
+            "lang": "en",
+            "title": "Begin your journey from today",
+            "subtitle": "Buildings are constructed in stages, begin with our offer today.",
+            "btn_text": "Register",
+            "btn_url": "/register"
+        },
+        {
+            "id": 2,
+            "lang": "ru",
+            "title": "Начни свое путешествие уже сегодня",
+            "subtitle": "Здания строятся поэтапно — начни с нашего предложения уже сегодня.",
+            "btn_text": "Зарегистрироваться",
+            "btn_url": "/register"
+        },
+        {
+            "id": 3,
+            "lang": "am",
+            "title": "Սկսեք ձեր ճանապարհը հենց այսօր",
+            "subtitle": "Շենքերը կառուցվում են փուլ առ փուլ․ սկսեք մեր առաջարկից արդեն այսօր։",
+            "btn_text": "Գրանցվել",
+            "btn_url": "/register"
         }
     ]
 }
