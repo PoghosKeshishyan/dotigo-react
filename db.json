@@ -467,6 +467,24 @@
             ]
         }
     ],
+    "top_level_domains": [
+        {
+            "id": 1,
+            "label": ".com"
+        },
+        {
+            "id": 2,
+            "label": ".co"
+        },
+        {
+            "id": 3,
+            "label": ".net"
+        },
+        {
+            "id": 4,
+            "label": ".store"
+        }
+    ],
     "hosting_plans": [
         {
             "id": 1,

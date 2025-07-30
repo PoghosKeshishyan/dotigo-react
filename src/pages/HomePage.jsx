@@ -22,7 +22,8 @@ export default function HomePage() {
         const loadingData = async () => {
             try {
                 const resIntro = await axios.get(`homepage_intro?lang=${DISPLAY_LANG}`);
-                setIntroData(resIntro.data[0]);
+                const resTopLevelDomains = await axios.get('top_level_domains');
+                setIntroData({ topLevelDomains: resTopLevelDomains.data, intro: resIntro.data[0] });
 
                 const resServices = await axios.get(`homepage_services?lang=${DISPLAY_LANG}`);
                 setServicesData(resServices.data[0]);
@@ -42,7 +43,7 @@ export default function HomePage() {
         };
 
         loadingData();
-    }, [DISPLAY_LANG]);
+    }, []);
 
     useEffect(() => {
         const loadingData = async () => {
@@ -56,7 +57,7 @@ export default function HomePage() {
         };
 
         loadingData();
-    }, [DISPLAY_LANG, billingType]);
+    }, [billingType]);
 
     return (
         <div className="HomePage">

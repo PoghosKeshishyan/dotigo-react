@@ -24,7 +24,7 @@ export default function App() {
     };
 
     loadingData();
-  }, [DISPLAY_LANG]);
+  }, []);
 
   return (
     <div className={`App ${DISPLAY_LANG === 'am' ? 'am-font' : ''}`}>

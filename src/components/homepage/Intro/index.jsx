@@ -1,3 +1,4 @@
+import { Fragment } from 'react/jsx-runtime';
 import './Intro.css';
 
 export default function Intro({ introData }) {
@@ -6,24 +7,25 @@ export default function Intro({ introData }) {
             <div className="wrapper">
                 <div className="row flex-center">
                     <div className="title">
-                        <h1>{introData.title}</h1>
-                        <p>{introData.descr}</p>
+                        <h1>{introData.intro.title}</h1>
+                        <p>{introData.intro.descr}</p>
                     </div>
 
                     <div className="search">
                         <form>
-                            <input type="search" placeholder={introData.placeholder} />
-                            <input type="submit" value={introData.button} className="btn" />
+                            <input type="search" placeholder={introData.intro.placeholder} />
+                            <input type="submit" value={introData.intro.btn_text} className="btn" />
                         </form>
 
                         <div className="top-level-domains flex-center">
-                            <p>.com</p>
-                            <div className="circle"></div>
-                            <p>.co</p>
-                            <div className="circle"></div>
-                            <p>.net</p>
-                            <div className="circle"></div>
-                            <p>.store</p>
+                            {
+                                introData.topLevelDomains.map((elem, index, arr) => (
+                                    <Fragment key={elem.id}>
+                                        <p>{elem.label}</p>
+                                        {index !== arr.length-1 && <div className="circle"></div>}
+                                    </Fragment>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>

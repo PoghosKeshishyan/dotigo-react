@@ -13,6 +13,7 @@ export default function Navbar({ navbar, navbarIsActive }) {
         };
 
         document.addEventListener("click", handleClickOutside);
+        
         return () => {
             document.removeEventListener("click", handleClickOutside);
         };
